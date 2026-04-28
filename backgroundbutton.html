@@ -1,0 +1,32 @@
+<html>
+    <script>
+         var i=0;
+    function fun()
+    {
+      color=document.getElementById("bt1").innerText;
+      document.body.style.backgroundColor=color
+    }
+    function fun1()
+    {
+      color=document.getElementById("bt2").innerText;
+      document.getElementById("bt2").style.backgroundColor=color
+    }
+    function fun2()
+    {
+      color=document.getElementById("bt3").innerText;
+      var obj=document.getElementById("bt3")
+      obj.style.color='blue'
+      obj.style.backgroundColor=color
+      <!--document.body.style.backgroundColor=color-->
+    }
+        </script>
+        <body>
+            <div>
+              
+            <button id="bt1" onclick="fun()">red</button><br/>
+                <button id="bt2" onclick="fun1()">blue</button><br/>
+                <button id="bt3" onclick="fun2()">yellow</button><br/>
+               
+            </div>
+            </body>
+            </html>

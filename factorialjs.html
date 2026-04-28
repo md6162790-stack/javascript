@@ -1,0 +1,19 @@
+<html>
+    <script>
+        function fun(){
+            var val=document.getElementById("value").value;
+            var val;
+            var i;
+            var fact=1;
+            for(i=1;i<=val;i++){
+                fact=fact*i;
+                document.getElementById("abc").innerHTML="<font color='blue' size='20'>the factorial value is"+parseInt(fact)+"</font>"
+            }
+        }
+        </script>
+        <head backhround-color="blue">
+            enter a value<input type="text" id="value"><br/>
+            <button onclick="fun()">onclick</button>
+            <p id="abc"></p>
+            </head>
+            </html>

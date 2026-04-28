@@ -1,0 +1,17 @@
+<html>
+    <script>
+        function func(){
+            var name=document.getElementsByTagName("input")[1].value;
+            document.getElementById("ab").innerHTML=name;
+     
+        }
+        </script>
+        <body>
+            <div>
+            Enter username:<input type="text" /><br/>
+            Enter name:<input type="text" /><br/>
+            <button onclick="func()">Click me</button>
+            <p id="ab"></p>
+            </div>
+            </body>
+            </html>

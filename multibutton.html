@@ -1,0 +1,20 @@
+<html>
+    <script>
+        function func(){
+            data=document.getElementsByTagName("button")[0].innerText;
+            document.getElementById("abc").innerHTML=data
+        }
+          function func1(){
+            data=document.getElementsByTagName("button")[1].innerText;
+            document.getElementById("abc").innerHTML=data
+        }
+        </script>
+        <body>
+            <div>
+           
+            <button onclick="func()">Click me</button>
+            <button onclick="func1()">Click me</button>
+            <p id="abc"></p>
+            </div>
+            </body>
+            </html>

@@ -1,0 +1,18 @@
+<html>
+    <script>
+        function fun(){
+            var age1=document.getElementById("ages").value;
+            
+            if(age1>=18){
+                document.getElementById("abc").innerHTML="age is"+parseInt(age1)
+        }else{
+            document.getElementById("abc").innerHTML="age is under "+parseInt(age1)
+        }
+    }
+        </script>
+        <head>
+            enter age<input type="text" id="ages" ><br/>
+            <button onclick="fun()">onclick</button>
+            <p id="abc"></p>
+            </head>
+            </html>
