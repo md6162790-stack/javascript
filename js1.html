@@ -1,0 +1,38 @@
+<html>
+    <script>
+        // (function(x){alert("hello world"+x)})(45)
+        // let fun=()=>{alert("welcome to js")}
+        // fun()
+        // var a1=45
+        // var a2=45
+        // var a3=a1+a2
+        // alert("addition of a1 and a2 is"+a3)
+        // function f1(){
+        // let a=prompt('enter a number')
+        // console.log(a)
+        // }
+        let b="HelloWorld"
+        alert(b.length)
+        alert(b.charAt(5))
+        let c="i am munna"
+        alert(b.concat(" ",c))
+        let z='banana,mango,tomato'
+        alert(z.slice(2,6))
+        let string="hdgajhbfjF"
+        alert(string.substring(2,5))
+        alert(b.toUpperCase())
+        alert(b.toLowerCase())
+        alert(b.repeat(3))
+        function f1(){
+            let char=document.getElementById("abc").innerHTML
+            document.getElementById("abc").innerHTML=  
+            char.replace("home","House")
+            
+        }
+    </script>
+    <body>
+        <h1>welcome to java script</h1>
+        <p id="abc">changing to home</p>
+        <button onclick="f1()">click on</button>
+    </body>
+</html>
