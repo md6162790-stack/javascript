@@ -1,0 +1,20 @@
+<html>
+    <script>
+        let json={
+            name:"harry",
+            channel:"CWH",
+            friend:"Raj",
+            food:'tomato'
+        }
+        console.log(json)
+        let myjson=JSON.stringify(json)
+        console.log(myjson)
+        let mystring=myjson.replace('tomato','mango')
+        console.log(mystring)
+        newjson=JSON.parse(myjson)
+        console.log(newjson)
+    </script>
+    <body>
+        <h1>json stringify</h1>
+    </body>
+</html>
