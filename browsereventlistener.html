@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script>
+        function toggleHide(){
+            let para = document.getElementById('para');
+
+            if (para.style.display != 'none') {
+                para.style.display = 'none';
+            } else {
+                para.style.display = 'block';
+            }
+        }
+
+    
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Browser</h1>
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <button id="btn" onclick="toggleHide()">show hide</button>
+    </div>
+</body>
+</html>

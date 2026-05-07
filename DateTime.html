@@ -1,0 +1,40 @@
+<html>
+    <script>
+        let now=new Date();
+        console.log(now)
+        let dt=new Date(0)
+        console.log(dt)
+        let newdate=new Date("2026-05-7")
+        console.log(newdate)
+      
+        let year=now.getFullYear()
+        console.log(year)
+        let date=now.getDate()
+        console.log(date)
+        let dat=now.getMonth()
+        console.log(dat)
+        let da=now.getHours()
+        console.log(da)
+  let news=new Date(2026,5,7,6,18,45,23)
+        console.log(news)
+        news.setDate(15)
+        console.log(news)
+        news.setHours(6)
+        console.log(news)
+        news.setMinutes(30)
+        console.log(news)
+        news.setSeconds(39)
+        console.log(news)
+
+
+        setInterval(updateTime, 1000);
+        function updateTime() {
+            let time = document.getElementById('time');
+            time.innerHTML = new Date();
+        }
+    </script>
+    <body>
+        <h1>Date and Time</h1>
+        <p id="time">time</p>
+    </body>
+</html>
